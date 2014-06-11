@@ -18,10 +18,9 @@ from jnpr.junos.utils.config import Config
 netconf_port = 22
 
 macros = {
-   'border_routers': 'border1.scl3.mozilla.net, border2.scl3.mozilla.net, border1.pao1.mozilla.net, border1.sjc2.mozilla.net, border1.phx1.mozilla.net, border2.phx1.mozilla.net',
-   'pop_firewalls':'fw1.pao1.mozilla.net,fw1.sjc2.mozilla.net',
-   'scl3_firewalls':'fw1.scl3.mozilla.net, fw1.releng.scl3.mozilla.net, fw1.corp.scl3.mozilla.net',
-   'office_firewalls':'fw1.sfo1.mozilla.net, fw1.mtv2.mozilla.net, fw1.yvr1.mozilla.net, fw1.lon1.mozilla.net, fw1.tpe1.mozilla.net, fw1.akl1.mozilla.net, fw1.par1.mozilla.net, fw1.pdx1.mozilla.net, fw1.tor1.mozilla.net, fw1.pek1.mozilla.net',
+   'border_routers': 'border1.foo.net, border2.foo.net, border3.foo.net',
+   'all_firewalls':'fw1.foo.net,fw2.foo.net',
+   'office_firewalls':'fw1.office1.foo.net, fw1.office2.foo.net, fw1.office3.foo.net',
 }
 
 def main ():
